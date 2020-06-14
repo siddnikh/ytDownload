@@ -1,5 +1,5 @@
 # ytDownload
-Built using MoviePy and PyTube
+Built using [MoviePy](https://github.com/Zulko/moviepy) and [PyTube](https://github.com/nficano/pytube)
 
 All you have to do is, run the Python Script in your Terminal, with the YouTube video link, and the desired resolution of that very video. If the resolution isn't available for that video, the program will terminate itself.
 
