@@ -78,7 +78,7 @@ else:
     output_path = os.path.join(os.getcwd(), "Downloaded\\")
     final_path = progressive_stream.download(output_path = output_path)
     
-    print("Your Downloaded File can be found at: " + final_path + "\n\nThank you for using this service :)\nMade by Siddharth Nikhil")
+    print("Your Downloaded File can be found at: " + final_path + "\n\nThank you for using this service :)")
     
     #We exit the program as we will have no need of further processing the files in case we did get a progressive stream
     exit()
@@ -111,3 +111,4 @@ os.remove(audio_path)
 os.remove(mp3_path)
 os.remove(video_path)
 print("Your video can now be found at: " + output_path +" as" + video_name +".mp4")
+print("Thank you for using the service :)")
